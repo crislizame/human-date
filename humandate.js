@@ -51,13 +51,13 @@
         options = {};
       }
       if (!options.futureSuffix) {
-        options.futureSuffix = 'from now';
+        options.futureSuffix = 'desde ahora';
       }
       if (!options.pastSuffix) {
-        options.pastSuffix = 'ago';
+        options.pastSuffix = '';
       }
       if (!options.presentText) {
-        options.presentText = 'now';
+        options.presentText = 'ahora';
       }
       if (!options.returnObject) {
         options.returnObject = false;
