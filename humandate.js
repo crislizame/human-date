@@ -1,18 +1,18 @@
 (function () {
   var humandate = {
     months: [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December'
+      'Enero',
+      'Febrero',
+      'Marzo',
+      'Abril',
+      'Mayo',
+      'Junio',
+      'Julio',
+      'Agosto',
+      'Septiembre',
+      'Octubre',
+      'Noviembre',
+      'Diciembre'
     ],
     toUTC: function toUTC(input) {
       var date = input ? new Date(input) : new Date();
@@ -87,19 +87,19 @@
         }
       }
       if (time.years) {
-        append(time.years, 'year');
+        append(time.years, 'año');
       }
       if (time.days) {
-        append(time.days, 'day');
+        append(time.days, 'día');
       }
       if (time.hours) {
-        append(time.hours, 'hour');
+        append(time.hours, 'hora');
       }
       if (time.minutes) {
-        append(time.minutes, 'minute');
+        append(time.minutes, 'minuto');
       }
       if (time.seconds) {
-        append(time.seconds, 'second');
+        append(time.seconds, 'segundo');
       }
       return output.join(', ') + ' ' + suffix;
     },
