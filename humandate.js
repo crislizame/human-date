@@ -51,7 +51,7 @@
         options = {};
       }
       if (!options.futureSuffix) {
-        options.futureSuffix = 'desde ahora';
+        options.futureSuffix = '';
       }
       if (!options.pastSuffix) {
         options.pastSuffix = '';
